@@ -27,6 +27,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    UIWebView *webView = [[UIWebView alloc] initWithFrame:(CGRect){ 10, 30, 300, 300 }];
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://apple.com"]]];
+    
+    [self.view addSubview:webView];
 }
 
 - (void)didReceiveMemoryWarning
