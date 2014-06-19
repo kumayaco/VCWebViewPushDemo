@@ -19,6 +19,7 @@
 		BF3634391953043C00419043 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3634211953043C00419043 /* UIKit.framework */; };
 		BF3634411953043C00419043 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF36343F1953043C00419043 /* InfoPlist.strings */; };
 		BF3634431953043C00419043 /* webViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3634421953043C00419043 /* webViewDemoTests.m */; };
+		BF36344E1953064700419043 /* VCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF36344D1953064700419043 /* VCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		BF36343E1953043C00419043 /* webViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "webViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		BF3634401953043C00419043 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF3634421953043C00419043 /* webViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webViewDemoTests.m; sourceTree = "<group>"; };
+		BF36344C1953064700419043 /* VCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCViewController.h; sourceTree = "<group>"; };
+		BF36344D1953064700419043 /* VCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				BF36342C1953043C00419043 /* VCAppDelegate.h */,
 				BF36342D1953043C00419043 /* VCAppDelegate.m */,
+				BF36344C1953064700419043 /* VCViewController.h */,
+				BF36344D1953064700419043 /* VCViewController.m */,
 				BF36342F1953043C00419043 /* Images.xcassets */,
 				BF3634241953043C00419043 /* Supporting Files */,
 			);
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF36342A1953043C00419043 /* main.m in Sources */,
+				BF36344E1953064700419043 /* VCViewController.m in Sources */,
 				BF36342E1953043C00419043 /* VCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
