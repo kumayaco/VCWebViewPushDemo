@@ -8,7 +8,7 @@
 
 #import "VCViewController.h"
 
-@interface VCViewController ()
+@interface VCViewController () <UIWebViewDelegate>
 
 @end
 
@@ -29,6 +29,7 @@
     // Do any additional setup after loading the view.
     
     UIWebView *webView = [[UIWebView alloc] initWithFrame:(CGRect){ 10, 30, 300, 300 }];
+    webView.delegate = self;
     [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://apple.com"]]];
     
     [self.view addSubview:webView];
